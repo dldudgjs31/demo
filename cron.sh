@@ -1,5 +1,6 @@
 #!/bin/sh
-git add ~/public_html/GIT2/demo/ 
+cd /www/hksipnqdj9xq1twe/public_html/GIT2/demo/
+git add .
 git checkout -b testbranch
 echo $(date) >> test.txt
 eval $(ssh-agent -s)
